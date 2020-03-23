@@ -4,3 +4,72 @@ h1 {
     font-size: 20px;
     color:coral
 }
+/*Базовые стили*/
+.button {
+    height: 50px;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+
+ /*width: 100px;*/
+
+}
+
+ background-color: #666;
+
+ border-radius: 5px;
+
+}
+
+/*шапка сайта*/
+header{
+    background-color: #000
+    height: 100px
+    color: #fff
+}
+header> div.container{
+    height: 100%
+    align-items: center;
+}
+header ul li{
+    margin-right: 20px
+}
+
+/*основное содержимое*/
+main{
+    background-color: #e5e5e5;
+    background-image: url(/site/images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+main> div.container{
+    background-color: #fff
+}
+
+/*подвал сайта*/
+footer{
+    background-color: #000
+    height: 200px
+    color: #fff
+}
+footer> div.container{
+    height: 100%
+    padding: 10px 0;
+}
+footer nav ul{
+    margin-right: 30px;
+}
+header a,
+
+footer a {
+color: #fff;
+
+ text-decoration: none;
+
+}
+
+header a:hover,
+footer a:hover {
+ text-decoration: underline;
+
+}
