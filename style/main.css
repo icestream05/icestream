@@ -138,7 +138,7 @@ main {
 }
 main > div.container {
     flex: 1 0 auto;
-    background-color: white;
+    background-color: gray;
 }
 main {
     background-image: url(/icestream/images/background.png);
