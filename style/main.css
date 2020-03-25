@@ -141,7 +141,7 @@ main > div.container {
     background-color: gray;
 }
 main {
-    background-image: url(/icestream/images/background.jpg);
+    background-image: url(/icestream/images/main.jpg);
     background-position: center center;
     background-size: cover;
 }
