@@ -24,8 +24,19 @@ body {
 }
 .button {
     height: 50px;
-    background-color: gray;
+    background-color: lightcoral;
     border-radius: 5px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.button {
+    height: 50px;
+    /*width:100px;*/
 }
 .container {
     padding: 0 15px;
@@ -185,4 +196,3 @@ footer a:hover {
 footer li {
     line-height: 2em;
 }
-/*Конец*/
