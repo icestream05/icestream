@@ -14,6 +14,14 @@ body {
     flex-direction: column;
     height: 100%;
 }
+.button {
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+}
+.button:hover {
+    background-color: #888;
+}
 .container {
     display: flex;
     width: 100%;
@@ -24,14 +32,6 @@ body {
 .button {
     height: 50px;
     /*width:100px;*/
-}
-.button {
-    padding: 20px 30px;
-    margin: 10px 20px;
-    text-decoration: none !important;
-}
-.button:hover {
-    background-color: #888;
 }
 .container {
     padding: 0 15px;
@@ -83,6 +83,7 @@ nav ul {
     border-right: 1px solid #e5e5e5;
 }
 
+
 /* Гибкая верстка */
 img {
     width: 100%;
@@ -128,6 +129,7 @@ header.logo {
     width: 100px;
 }
 
+
 /* Основное содержимое */
 main {
     display: flex;
@@ -139,7 +141,7 @@ main > div.container {
     background-color: white;
 }
 main {
-    background-image: url(/icestream/images/background.jpg);
+    background-image: url(/afanasyev_official/images/main.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -161,6 +163,8 @@ aside a:hover {
 aside li {
     line-height: 1.5em;
 }
+
+
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
